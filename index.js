@@ -8,6 +8,6 @@ app.use('/assets', express.static(__dirname + '/assets/'))
 
 
 
-app.get('/pokemones', (req,res)=>{
+app.get('/', (req,res)=>{
     res.render('index')
 })
