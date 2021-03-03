@@ -1,0 +1,61 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    link(rel="shortcut icon", href="#", type="image/x-icon")
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='/assets/css/styles.css')
+    link(rel='stylesheet' href='/assets/css/bootstrap.css')
+    title Pok&eacute;dex
+    #main.container.mb-5
+        #pokedex
+            #left
+                #logo
+                #bg_curve1_left
+                #bg_curve2_left
+                #curve1_left
+                    #buttonGlass
+                        #reflect
+                    #miniButtonGlass1
+                    #miniButtonGlass2
+                    #miniButtonGlass3
+                #curve2_left
+                    #junction
+                        #junction1
+                        #junction2
+                #screen
+                    #topPicture
+                        #buttontopPicture1
+                        #buttontopPicture2
+                    #picture
+                        img#pokeImagen(src='' alt='Poke-Imagen')
+                    #buttonbottomPicture
+                    #speakers
+                        .sp
+                        .sp
+                        .sp
+                        .sp
+                button#bigbluebutton Buscar
+                #barbutton1
+                #barbutton2
+                #cross
+                    #leftcross
+                        #leftT
+                    #topcross
+                        #upT
+                    #rightcross
+                        #rightT
+                    #midcross
+                        #midCircle
+                    #botcross
+                        #downT
+                input#pokemon.searchBar(type='text' placeholder='Ingrese Pokémon')
+            #right
+                #stats
+                #chartContainer
+                #bg_curve1_right
+                #bg_curve2_right
+                #curve1_right
+                #curve2_right
+script(src='https://code.jquery.com/jquery-3.5.1.js')
+script(src='https://canvasjs.com/assets/script/canvasjs.min.js')
+script(src='/assets/js/index.js')
